@@ -1,0 +1,284 @@
+{
+	"info": {
+		"_postman_id": "5e2c8efb-5173-4341-8d96-2fa83fe83cf0",
+		"name": "PRUEBAS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "10:00 del día 14",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"date\":\"14-06-2020 10:00:00\",\r\n    \"brandId\":1,\r\n    \"productId\":35455\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/brandRest/getpricesbody",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"brandRest",
+						"getpricesbody"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "16:00 del día 14",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"date\":\"14-06-2020 16:00:00\",\r\n    \"brandId\":1,\r\n    \"productId\":35455\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/brandRest/getpricesbody",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"brandRest",
+						"getpricesbody"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "21:00 del día 14",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"date\":\"14-06-2020 21:00:00\",\r\n    \"brandId\":1,\r\n    \"productId\":35455\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/brandRest/getpricesbody",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"brandRest",
+						"getpricesbody"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "10:00 del día 15",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"date\":\"15-06-2020 10:00:00\",\r\n    \"brandId\":1,\r\n    \"productId\":35455\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/brandRest/getpricesbody",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"brandRest",
+						"getpricesbody"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "21:00 del día 16",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"date\":\"16-06-2020 21:00:00\",\r\n    \"brandId\":1,\r\n    \"productId\":35455\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/brandRest/getpricesbody",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"brandRest",
+						"getpricesbody"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "10:00 del día 14 PATHVariable",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/brandRest/getprices/35455/1/1592128800000\t",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"brandRest",
+						"getprices",
+						"35455",
+						"1",
+						"1592128800000\t"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "16:00 del día 14 PATHVariable Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/brandRest/getprices/35455/1/\t1592150400000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"brandRest",
+						"getprices",
+						"35455",
+						"1",
+						"\t1592150400000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "21:00 del día 14 PATHVariable Copy 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/brandRest/getprices/35455/1/\t1592168400000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"brandRest",
+						"getprices",
+						"35455",
+						"1",
+						"\t1592168400000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "10:00 del día 15 PATHVariable Copy 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/brandRest/getprices/35455/1/\t1592215200000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"brandRest",
+						"getprices",
+						"35455",
+						"1",
+						"\t1592215200000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "21:00 del día 16 PATHVariable Copy 4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/brandRest/getprices/35455/1/\t1592341200000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"brandRest",
+						"getprices",
+						"35455",
+						"1",
+						"\t1592341200000"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
