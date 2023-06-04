@@ -6,4 +6,6 @@ En el directorio Brand encontramos el proyecto maven de la prueba. En el podemos
 
 Además, el proyecto incluye un par de test unitarios a ambos servicios en src/test/java.
 
+El proyecto es un proyecto maven y para arrancarlo es suficiente con darle a "Run as..." -> "Spring Boot App". Cualquier duda o error al importar/arrancar el proyecto, por favor, indicarlo.
+
 El archivo PRUEBAS.postman_collection.json contiene una colección de request a ambas urls. Para ello es necesario importar el archivo en el Postman (en caso de duda contactad conmigo por favor).
